@@ -7,6 +7,28 @@ WaveView
 
 A wave view of android,can be used as progress bar.
 
+### Install
+-------------
+####Gradle
+```groovy
+repositories {
+    maven { url 'http://raw.github.com/emreaktrk/WaveView/master/repository/' }
+}
+
+dependencies {
+    compile 'com.john.waveview:release:1.0.0@aar'
+}
+```
+
+####Maven
+```xml
+<dependency>
+    <groupId>com.john.waveview</groupId>
+    <artifactId>release</artifactId>
+    <version>1.0.0</version>
+    <type>aar</type>
+</dependency>
+```
 
 ### Screenshot
 -------------
