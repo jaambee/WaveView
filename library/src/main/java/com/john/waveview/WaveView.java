@@ -60,11 +60,16 @@ public class WaveView extends LinearLayout {
         addView(mSolid);
 
         setProgress(mProgress);
+        setAlpha(100, 100);
     }
 
     public void setProgress(int progress) {
         this.mProgress = progress > 100 ? 100 : progress;
         computeWaveToTop();
+    }
+
+    public void setAlpha(int above, int blow) {
+        this.mWave.setAlpha(above, blow);
     }
 
     @Override
